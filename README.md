@@ -57,3 +57,25 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 - Crie um middleware que será utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorne um erro, caso contrário permita a requisição continuar normalmente;
 
 - Crie um middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
+
+
+### Como instalar Iniciar o projeto 
+
+<strong>Clone o Repositório</strong>
+
+```
+   $ git clone  https://github.com/martins20/ProjectTodoList.git
+```
+
+<strong>Entre na pasta raiz e instale todas as dependencias</strong>
+
+```
+ $ yarn ou $ npm i
+```
+
+
+<strong>rode o projeto :) </strong>
+
+```
+ $ yarn dev  ou $ npm run dev
+```
