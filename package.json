@@ -1,0 +1,17 @@
+{
+  "name": "projecttodolist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/martins20/ProjectTodoList.git",
+  "author": "Paulo César <pdesignerpb@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
